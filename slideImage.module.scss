@@ -1,0 +1,33 @@
+.slideContainer {
+  width: 200px;
+  overflow-x: hidden;
+
+  .slideList {
+    width: 600px;
+    transition: all 300ms ease 0s;
+
+    .slide {
+      display: table;
+      float: left;
+      width: 200px;
+    }
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+
+  .slideButton {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+    .btn {
+      border: none;
+      background: none;
+      cursor: pointer;
+      position: relative;
+      opacity: 0.4;
+    }
+  }
+}
